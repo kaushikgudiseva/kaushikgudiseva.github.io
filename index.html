@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kaushik Gudiseva — Rutgers finance student with experience in corporate finance, financial analysis, and valuation.">
+  <title>Kaushik Gudiseva | Finance Portfolio</title>
+  <style>
+    :root { --navy:#152b40; --green:#176758; --ink:#223443; --muted:#566574; --paper:#f7f8f5; --line:#dce3df; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; scroll-padding-top:90px; }
+    body { margin:0; font-family:Arial,Helvetica,sans-serif; background:var(--paper); color:var(--ink); line-height:1.65; }
+    a { color:var(--green); text-underline-offset:4px; }
+    a:focus-visible, summary:focus-visible { outline:3px solid var(--green); outline-offset:5px; }
+    .container { max-width:1120px; margin:auto; padding:0 28px; }
+    .skip { position:absolute; left:20px; top:-80px; padding:10px; background:white; z-index:10; }
+    .skip:focus { top:10px; }
+    header { background:var(--paper); border-bottom:1px solid var(--line); }
+    .header-inner { display:flex; justify-content:space-between; align-items:center; gap:20px; padding-top:21px; padding-bottom:21px; }
+    .brand { font-weight:700; color:var(--navy); text-decoration:none; letter-spacing:-.5px; }
+    nav { display:flex; gap:25px; }
+    nav a { text-decoration:none; color:var(--ink); font-size:14px; }
+    nav a:hover { text-decoration:underline; }
+    .hero { padding:85px 0 70px; }
+    .eyebrow { color:var(--green); text-transform:uppercase; font-size:12px; letter-spacing:2px; font-weight:700; }
+    h1 { font-size:clamp(42px,7vw,76px); line-height:1.07; letter-spacing:-3px; color:var(--navy); margin:19px 0 25px; }
+    .statement { font-size:clamp(19px,2.5vw,25px); max-width:840px; line-height:1.55; }
+    .button { display:inline-block; margin-top:22px; background:var(--green); color:white; padding:12px 23px; border-radius:5px; font-size:14px; font-weight:700; text-decoration:none; }
+    .button:hover { background:#104c41; }
+    .hero-footer { display:flex; flex-wrap:wrap; gap:12px 30px; border-top:1px solid var(--line); margin-top:46px; padding-top:22px; color:var(--muted); font-size:14px; }
+    section { padding:56px 0; border-top:1px solid var(--line); }
+    h2 { font-size:32px; letter-spacing:-1px; line-height:1.2; margin:12px 0; color:var(--navy); }
+    .intro { color:var(--muted); max-width:720px; margin-bottom:28px; }
+    .grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:20px; }
+    .card { border:1px solid var(--line); border-radius:10px; padding:27px; background:white; }
+    h3 { font-size:20px; line-height:1.4; margin:0 0 14px; color:var(--navy); }
+    .skills { list-style:none; padding:0; margin:0; }
+    .skills li { padding:9px 0; border-top:1px solid #edf0ed; font-size:15px; }
+    .project-number { display:block; color:var(--green); font-size:12px; letter-spacing:1.5px; margin-bottom:20px; font-weight:700; }
+    .project p { font-size:15px; color:var(--muted); }
+    .tags { display:flex; flex-wrap:wrap; gap:7px; margin:20px 0; }
+    .tag { background:#edf4f0; color:#215b4f; border-radius:4px; padding:4px 9px; font-size:11px; }
+    .project a { font-size:14px; font-weight:700; }
+    .detail-grid { display:grid; grid-template-columns:1fr 1fr; gap:20px; margin-top:25px; }
+    .detail { padding:24px 0; border-bottom:1px solid var(--line); }
+    .detail p { color:var(--muted); margin:10px 0; }
+    .label { font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:1px; color:var(--green); }
+    footer { padding:28px 0; border-top:1px solid var(--line); color:var(--muted); font-size:13px; }
+    @media(max-width:800px) { .grid { grid-template-columns:1fr; } .detail-grid { grid-template-columns:1fr; } .hero { padding-top:55px; } }
+    @media(max-width:480px) { .container { padding-left:20px; padding-right:20px; } .header-inner { align-items:flex-start; flex-direction:column; gap:12px; } nav { gap:22px; } h1 { letter-spacing:-1.5px; } section { padding:40px 0; } }
+    @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header>
+    <div class="container header-inner">
+      <a class="brand" href="#about">Kaushik Gudiseva</a>
+      <nav aria-label="Main navigation"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a></nav>
+    </div>
+  </header>
+  <main id="main" class="container">
+    <div class="hero" id="about">
+      <div class="eyebrow">Finance · Analysis · Capital Markets</div>
+      <h1>Kaushik<br>Gudiseva.</h1>
+      <p class="statement">I’m a Rutgers Business School finance student with experience in corporate finance and valuation, focused on helping businesses make informed financial decisions.</p>
+      <a class="button" href="#projects">Explore my projects &rarr;</a>
+      <div class="hero-footer"><span>Rutgers Business School · New Brunswick</span><span>Interests: Fixed Income, Credit &amp; Debt Capital Markets</span></div>
+    </div>
+
+    <section id="skills" aria-labelledby="skills-title">
+      <div class="eyebrow">01 / What I bring</div>
+      <h2 id="skills-title">Skills</h2>
+      <p class="intro">A foundation in financial analysis, business systems, and communicating insights.</p>
+      <div class="grid">
+        <div class="card"><h3>Financial Analysis</h3><ul class="skills"><li>Financial statement analysis</li><li>Three-statement modeling</li><li>Discounted cash flow valuation</li><li>Comparable company analysis</li><li>Balance sheet variance analysis</li></ul></div>
+        <div class="card"><h3>Tools &amp; Systems</h3><ul class="skills"><li>Excel: XLOOKUP, VLOOKUP &amp; pivot tables</li><li>Power BI dashboards</li><li>SAP</li><li>Power Automate</li><li>Microsoft Teams &amp; SharePoint</li></ul></div>
+        <div class="card"><h3>Professional Skills</h3><ul class="skills"><li>Research &amp; investment analysis</li><li>Presentation development</li><li>Cross-functional collaboration</li><li>Process documentation</li><li>Executive outreach</li></ul></div>
+      </div>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-title">
+      <div class="eyebrow">02 / Selected work</div>
+      <h2 id="projects-title">Projects</h2>
+      <p class="intro">Selected work from corporate finance and investment analysis. Each project links to a brief reference below.</p>
+      <!-- If you have permission to share project files, replace each internal
+           reference link with the actual public report, code, or demo URL.
+           Do not publish confidential employer information. -->
+      <div class="grid">
+        <article class="card project"><span class="project-number">PROJECT 01</span><h3>Mercedes-Benz Financial Review</h3><p>Analyzed Mercedes-Benz Group’s 2025 financial results and developed a presentation for leadership during my corporate finance internship.</p><div class="tags"><span class="tag">Financial Statements</span><span class="tag">Research</span><span class="tag">Presentation</span></div><a href="#mercedes-reference">Read project reference &rarr;</a></article>
+        <article class="card project"><span class="project-number">PROJECT 02</span><h3>Balance Sheet Dashboard</h3><p>Built Power BI dashboards to support balance sheet variance analysis and help the finance team review changes in financial data.</p><div class="tags"><span class="tag">Power BI</span><span class="tag">Variance Analysis</span><span class="tag">Data Visualization</span></div><a href="#dashboard-reference">Read project reference &rarr;</a></article>
+        <article class="card project"><span class="project-number">PROJECT 03</span><h3>Acquisition Investment Analysis</h3><p>Created a three-statement model and discounted cash flow valuation for a suture company, using the analysis to support a recommendation against acquisition.</p><div class="tags"><span class="tag">Financial Modeling</span><span class="tag">DCF</span><span class="tag">Investment Analysis</span></div><a href="#valuation-reference">Read project reference &rarr;</a></article>
+      </div>
+    </section>
+
+    <section aria-labelledby="references-title">
+      <div class="eyebrow">03 / Project references</div>
+      <h2 id="references-title">The work behind the projects</h2>
+      <div class="detail-grid">
+        <article class="detail" id="mercedes-reference"><h3>Mercedes-Benz Financial Review</h3><span class="label">Context</span><p>Corporate Finance Internship · Mercedes-Benz Vans</p><span class="label">Contribution</span><p>Reviewed the Group’s financial performance and translated findings into a presentation for leadership.</p><span class="label">Skills applied</span><p>Financial statement analysis, research, and communicating financial information.</p></article>
+        <article class="detail" id="dashboard-reference"><h3>Balance Sheet Dashboard</h3><span class="label">Context</span><p>Corporate Finance Internship · Mercedes-Benz Vans</p><span class="label">Contribution</span><p>Developed Power BI dashboards for balance sheet variance analysis to support financial review.</p><span class="label">Skills applied</span><p>Power BI, data visualization, and variance analysis.</p></article>
+        <article class="detail" id="valuation-reference"><h3>Acquisition Investment Analysis</h3><span class="label">Context</span><p>Investment Analysis Internship · Asian Institute of Arthroscopy</p><span class="label">Contribution</span><p>Built a three-statement financial model and DCF valuation to evaluate a potential investment in a suture company.</p><span class="label">Outcome</span><p>Recommended against acquisition based on the analysis.</p></article>
+      </div>
+    </section>
+  </main>
+  <footer><div class="container">Kaushik Gudiseva · Finance Portfolio <span aria-hidden="true">/</span> <a href="#about">Back to top</a></div></footer>
+</body>
+</html>
